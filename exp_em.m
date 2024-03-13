@@ -1,7 +1,7 @@
-function[ee] = exp_em(t,e)
-    if e==1 % high school 
-        ee = t;
-    else % 
-        ee = t-1;
+function[exp] = exp_em(t,e)
+    if e==0
+        exp = t;
+    else
+        exp = t-1;
     end
 end
